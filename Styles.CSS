@@ -1,0 +1,48 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+h2 {
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Horizontal Line Styling */
+hr {
+    border: 2px solid #888;
+    width: 50%;
+    margin: auto;
+}
+
+/* List Styling */
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+li {
+    font-size: 18px;
+    color: #444;
+    padding: 5px;
+}
+
+/* Adding hover effect */
+li:hover {
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+}
